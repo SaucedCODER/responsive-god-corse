@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;  
+  }
+  html{
+    font-family:Roboto;
+  }
+  body{
+    margin:0;
+  }
+  .main-container{
+    background-color:#003333;
+    color:#fff;
+    padding:7em 5em;
+  }
+  .contents{
+    width:50vw;
+  }
+  .contents p {
+    font-weight: 300;
+    font-size: .95rem;
+  }
+  .btn-container{
+    color:#003333;
+    font-size:.9rem;
+    display:inline-block;
+    background-color: #00cccc;
+    padding:1em 3em;
+    text-transform:Uppercase;
+    border-radius:50px;
+    font-weight: 900;
+    margin-top: 1.8rem;
+    cursor:pointer;
+    text-align:center;
+  }
+  
+  
+  
+  
