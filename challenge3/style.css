@@ -3,6 +3,7 @@
   }
   html{
     font-family:Roboto;
+    font-size: 21px;
   }
   body{
     margin:0;
@@ -10,27 +11,43 @@
   .main-container{
     background-color:#003333;
     color:#fff;
-    padding:7em 5em;
+    padding: 5em 0;
+
   }
   .contents{
-    width:50vw;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .section{
+    max-width:600px;
+
+  }
+  .contents h1 {
+    font-size: 2rem;
+    margin:0;
   }
   .contents p {
     font-weight: 300;
-    font-size: .95rem;
+    font-size: 1rem;
   }
   .btn-container{
     color:#003333;
-    font-size:.9rem;
+    font-size:.75rem;
     display:inline-block;
     background-color: #00cccc;
-    padding:1em 3em;
+    padding:.8em 2.5em;
     text-transform:Uppercase;
     border-radius:50px;
     font-weight: 900;
     margin-top: 1.8rem;
     cursor:pointer;
     text-align:center;
+    transition: opacity 250ms;
+  }
+  .btn-container:focus,
+  .btn-container:hover{
+    opacity: .75;
   }
   
   
